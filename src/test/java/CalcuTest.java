@@ -42,14 +42,12 @@ public class CalcuTest {
     @Test
     public void testAdd() {
         System.out.println("add");
-        int a = 0;
-        int b = 0;
+        int a = 5;
+        int b = 3;
         Calcu instance = new Calcu();
-        int expResult = 0;
+        int expResult = 7;
         int result = instance.add(a, b);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
     
 }
