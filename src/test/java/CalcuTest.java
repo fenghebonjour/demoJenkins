@@ -45,7 +45,7 @@ public class CalcuTest {
         int a = 5;
         int b = 3;
         Calcu instance = new Calcu();
-        int expResult = 7;
+        int expResult = 8;
         int result = instance.add(a, b);
         assertEquals(expResult, result);
     }
